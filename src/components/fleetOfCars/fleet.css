@@ -60,7 +60,9 @@
         margin: 0.5em;
         
     }
-    
+    .fleetContainer {
+        padding: 2em;
+    }
 }
 @media(min-width:1024px) {
     .fleetGrid {
@@ -68,5 +70,8 @@
         grid-template-columns: repeat(3,1fr);
         width: 100%;
         overflow: hidden;
+    }
+    .fleetContainer{
+        padding: 2em;
     }
 }
