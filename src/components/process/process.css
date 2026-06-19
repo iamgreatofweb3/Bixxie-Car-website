@@ -1,0 +1,51 @@
+.process-container {
+    padding: 1em;
+    text-align: center;
+    font-family: great2;
+}
+.color-txt {
+    font-family: Great1;color: crimson;
+    margin-bottom: 0.5em;
+}
+.steptxt {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.Box{
+    border: 1px solid black;
+    margin: 2em;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.736);
+    h2 {
+        margin-bottom: 0.3em;
+    }
+    h5 {
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+}.stepIcons {
+    background-color:rgba(105, 105, 105, 0.316);
+    margin-bottom: 0.5em;
+    padding: 1em;
+    border-radius: 9px;
+    height: 45px;
+    width: 45px;
+    margin-top: -1em;
+}
+.icon {
+    background-color: darkorange;
+    height: 50px;
+    width: 50px;
+    border-radius: 999px;
+}
+@media(min-width:769px) {
+    .stepBox {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .process-container{
+        margin-top: 2em;
+       
+    }
+}

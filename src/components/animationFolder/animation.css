@@ -1,0 +1,50 @@
+.animateBody {
+    background-color: black;
+    color: white;
+    font-family: great1;
+    padding: 1em;
+    text-align: center;
+    overflow: hidden;
+}
+
+.rightBody {
+    h2 {
+        margin-top: 0.5em;
+    }
+    p {
+        margin-top: 1.3em;
+        margin-bottom: 2em;
+    }
+    li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        margin: 1em;
+    }
+}
+
+.iconAnimate {
+    background-color: white;
+    padding: 0.7em;
+    border-radius: 999px;
+}
+@media(min-width:769px) {
+    .animateBody {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 2em;
+    }
+    .grid-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .animateCar-Img {
+        width: 500px;
+        height: 500px;
+        margin-left: -330px;
+        transform: translateX(10);
+        transition: 0.1s;
+    }
+    
+}

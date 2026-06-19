@@ -1,0 +1,42 @@
+.heroSection-Container {
+    margin-top: 6em;
+    padding: 1em;
+
+    }
+.left-heroSection {
+    font-family: Great1;
+    h1 {
+       font-family: great3;  
+    }
+    h3 {
+        margin-top: 0.5em;
+        font-family: great3;
+        font-size: 1.6em;
+        margin-bottom: 0.6em;
+        font-weight: 500;
+    }
+    p {
+        margin-bottom: 1em;
+        font-size: 1.3em;
+        font-family: Great2;
+        line-height: 1.4em;
+    }
+}
+ @media (min-width:769px) {
+    .heroSection-Container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 80vh;
+    }
+     .left-heroSection {
+        flex: 1;
+        margin-left: 2.5em;
+        h1 {
+            font-size: 3.5em;
+        }
+     }
+     .right-heroSection {
+        flex: 1;
+     }    
+} 

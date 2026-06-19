@@ -1,0 +1,52 @@
+.fleetContainer{
+    font-family: Great1;
+    text-align: center;
+    margin-top: 2em;
+} 
+.fleetscnt {
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 1px 1px 2px 0px ;
+    transition: all 0.5s ease;
+   h2 {
+    text-align: left;
+   }
+}
+.fleetscnt:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.icon-txt  {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    p {
+        align-items: center;
+        display: flex;
+        gap: 5px;
+    }
+    
+}
+
+@media(min-width:769px) {
+    .fleetGrid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 2em;
+    }
+    .fleetscnt {
+        margin: 0.5em;
+        
+    }
+    
+}
+@media(min-width:1024px) {
+    .fleetGrid {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 100%;
+        overflow: hidden;
+    }
+}
