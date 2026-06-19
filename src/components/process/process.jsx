@@ -1,5 +1,8 @@
 import "./process.css"
+import { BsCarFront } from "react-icons/bs"
+import { FaCar, FaCalendarDay, FaLocationArrow } from "react-icons/fa"
 import { Calendar1Icon, LocationEditIcon, CarFront } from "lucide-react"
+import { FaCalendarDays, FaLocationDot, FaLocationPin } from "react-icons/fa6"
 export default function Process() {
     return (
 
@@ -9,25 +12,26 @@ export default function Process() {
             <h3 className="steptxt">Bixxie Ridez follow 3 working Steps</h3>
             <div className="stepBox">
                 <div className="leftStepBox Box">
-                    <LocationEditIcon stroke="crimson" width={50} strokeWidth={1} height={70} className="stepIcons"/>
+                    <FaLocationDot width={50} height={70} className="stepIcons"/>
 
-                    <h2>Choose A Location</h2>
+                    <h2 className="color-txt">Choose A Location</h2>
                     <h5>Select your preferred location 
                         and destination for perfect car rental experience.
                     </h5>
                 </div>
                 <div className="middleStepBox Box">
-                     <Calendar1Icon stroke="crimson" width={50} height={70} strokeWidth={1} className="stepIcons icon"/>
+                     <FaCalendarDays width={50} height={70}  className="stepIcons"/>
 
-                    <h2>Pick A Date</h2>
+                    <h2 className="color-txt">Pick A Date</h2>
                     <h5>PinPoint your travel date 
                         to experience the perfect car rental service 
                         to be offered on your trip.
                     </h5>
                 </div>
+                
                 <div className="rightStepBox Box">
-                    <CarFront stroke="crimson" width={50} height={70} strokeWidth={1} className="stepIcons"/>
-                    <h2>Book Your Car</h2>
+                    <FaCar  width={50} height={70}  className="stepIcons"/>
+                    <h2 className="color-txt">Book Your Car</h2>
                     <h5>Reserve your vehicle effortlessly 
                         and embark on your adventureous trip with confidence.
                     </h5>
