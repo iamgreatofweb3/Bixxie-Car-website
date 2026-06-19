@@ -2,7 +2,7 @@ import "./animation.css"
 import Image from "next/image"
 import AnimateCar from "../animatedImg/animate"
 import { PhoneCall,Tags,Clock,MedalIcon,CarFront,Award,Star } from "lucide-react"
-import { FaCar } from "react-icons/fa"
+import { FaCar,FaClock } from "react-icons/fa"
 export default function AnimationArea() {
     return (
         <>
