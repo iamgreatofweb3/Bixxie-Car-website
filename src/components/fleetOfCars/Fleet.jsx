@@ -1,4 +1,5 @@
 import "./fleet.css"
+import Link from "next/link"
 import Image from "next/image"
 import { Headphones,Locate,MonitorDotIcon,MapPin } from "lucide-react"
 import { FaWhatsapp,FaBluetooth, FaDoorOpen, FaSitemap, FaSatellite, FaWifi } from "react-icons/fa"
@@ -27,7 +28,14 @@ export default function FleetSection() {
                             <p><MonitorDotIcon stroke="grey"/>TV</p> 
                             <p><FaWifi color="grey"/>Wifi</p>        
                         </div>
+                        <div className="priceBookCnt">
+                            <p>&#8358;170,000.00/Day</p>
+                            <button>
+                                <Link href="booking" className="Link">BOOK NOW</Link>
+                            </button>
+                        </div>
                     </div>
+                    
                    <div className="fleetscnt">
                          <Image 
                         src="/Camry-600x398.png"
@@ -36,6 +44,18 @@ export default function FleetSection() {
                         alt="Camry Car"
                         loading="eager"
                         />
+                         <div className="icon-txt">
+                            <p><Headphones stroke="grey"/>Music</p>
+                            <p><Locate stroke="grey"/>GPS</p>
+                            <p><MonitorDotIcon stroke="grey"/>TV</p> 
+                            <p><FaWifi color="grey"/>Wifi</p>        
+                        </div>
+                        <div className="priceBookCnt">
+                            <p>&#8358;170,000.00/Day</p>
+                            <button>
+                                <Link href="booking" className="Link">BOOK NOW</Link>
+                            </button>
+                        </div>
                         
                     </div>
                     <div className="fleetscnt">

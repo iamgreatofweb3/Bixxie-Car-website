@@ -29,6 +29,26 @@
     }
     
 }
+.priceBookCnt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2em 0;
+    p{
+        font-weight: 600;
+    }
+    button{
+        background-color: black;
+        padding: 1em;
+        border-radius: 0.4em;
+        cursor: pointer;
+        
+    }
+    .Link {
+        color: white;
+        text-decoration: none;
+    }
+}
 
 @media(min-width:769px) {
     .fleetGrid {

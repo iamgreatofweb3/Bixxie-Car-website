@@ -2,6 +2,7 @@ import "./animation.css"
 import Image from "next/image"
 import AnimateCar from "../animatedImg/animate"
 import { PhoneCall,Tags,Clock,MedalIcon,CarFront,Award,Star } from "lucide-react"
+import { FaCar } from "react-icons/fa"
 export default function AnimationArea() {
     return (
         <>
@@ -26,15 +27,11 @@ export default function AnimationArea() {
                         <div className="second-grid">
                             <li> <MedalIcon  stroke="crimson" strokeWidth={1} width={40} height={40} className="iconAnimate"/> Dedication and Certanity</li>
                             <li> <PhoneCall  stroke="crimson" strokeWidth={1} width={40} height={40} className="iconAnimate"/> Excellent customer support</li>
-                            <li><CarFront  stroke="crimson" strokeWidth={1} width={40} height={40} className="iconAnimate"/>Well Maintained Vehicles</li>
+                            <li><FaCar  color="crimson"  width={80} height={140} className="iconAnimate " style={{width:"40px",height:"40px"}}/>Well Maintained Vehicles</li>
                         </div>
                     </div>
             </div>
-
-
-
             </div>        
-        
         </>
     )
 }
