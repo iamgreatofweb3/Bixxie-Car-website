@@ -1,6 +1,7 @@
 import "./fleet.css"
 import Image from "next/image"
 import { Headphones,Locate,MonitorDotIcon,MapPin } from "lucide-react"
+import { FaWhatsapp } from "react-icons/fa"
 export default function FleetSection() {
     return (
         <>
@@ -25,7 +26,7 @@ export default function FleetSection() {
                             <p><MonitorDotIcon stroke="grey"/>TV</p>                            
                         </div>
                     </div>
-                    <div className="fleetscnt">
+<FaWhatsapp size={50}  color="green" />                    <div className="fleetscnt">
                          <Image 
                         src="/Camry-600x398.png"
                         width={300}
@@ -33,6 +34,7 @@ export default function FleetSection() {
                         alt="Camry Car"
                         loading="eager"
                         />
+                        
                     </div>
                     <div className="fleetscnt">
                          <Image 
