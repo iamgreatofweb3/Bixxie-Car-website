@@ -72,7 +72,7 @@ export default function FleetSection() {
                             <p><Locate stroke="grey"/>GPS</p>
                             {/* <p><MonitorDotIcon stroke="grey"/>TV</p>  */}
                             <p><FaBluetooth color="grey"/>Bluetooth</p>
-                            <p><FaWifi/>Wifi</p>        
+                            {/* <p><FaWifi/>Wifi</p>         */}
                         </div>
                         <div className="priceBookCnt">
                             <p>&#8358;150,000.00/Day</p>
@@ -91,7 +91,7 @@ export default function FleetSection() {
                         loading="eager"
                         />
                          <div className="icon-txt">
-                            <p><Headphones stroke="grey"/>Music</p>
+                            {/* <p><Headphones stroke="grey"/>Music</p> */}
                             <p><Locate stroke="grey"/>GPS</p>
                             <p><MonitorDotIcon stroke="grey"/>TV</p>  
                             <p><FaBluetooth color="grey"/>Bluetooth</p>
