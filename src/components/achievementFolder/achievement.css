@@ -1,0 +1,28 @@
+.achievementCnt{
+    font-family: Great1;
+    text-align: center;
+    padding: 3em;
+    h5 {
+         font-weight: 400;
+        font-size: 1em;
+    }
+}
+.achievementBox {
+    border: 1px solid white;
+    margin-top: 2em;
+    padding: 2em;
+    border-radius: 0.6em;
+    box-shadow: 1px 1px 3px 2px gray;
+}
+.achievements{
+    margin-top: 1em;
+}
+@media(min-width:769px) {
+    .achievementBox{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .achievementsBorder{
+        border-right: 1px solid grey;
+    }
+}

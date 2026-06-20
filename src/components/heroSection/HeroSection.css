@@ -28,6 +28,7 @@
         align-items: center;
         justify-content: space-between;
         min-height: 80vh;
+        gap: 5em;
     }
      .left-heroSection {
         flex: 1;

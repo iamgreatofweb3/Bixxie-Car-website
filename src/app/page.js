@@ -5,6 +5,8 @@ import Process from "@/components/process/process";
 import AnimationArea from "@/components/animationFolder/animation";
 import FleetSection from "@/components/fleetOfCars/Fleet";
 import ServicePage from "@/components/ServiceSection/service";
+import AchievementPage from "@/components/achievementFolder/achievement";
+import ReviewCnt from "@/components/reviewFolder/review";
 export default function Home() {
   return (
    <>
@@ -14,6 +16,8 @@ export default function Home() {
   <AnimationArea/>
   <FleetSection/>
   <ServicePage/>
+  <AchievementPage/>
+  <ReviewCnt/>
    </>
   );
 }
