@@ -137,7 +137,7 @@ export default function FleetSection() {
                          <div className="icon-txt">
                             {/* <p><Headphones stroke="grey"/>Music</p> */}
                             <p><Locate stroke="grey"/>GPS</p>
-                            <p><MonitorDotIcon stroke="grey"/>TV</p>   <br />
+                            {/* <p><MonitorDotIcon stroke="grey"/>TV</p>   <br /> */}
                             <p><FaBluetooth color="grey"/>Bluetooth</p>
                             <p><FaWifi/>Wifi</p>        
                         </div>
