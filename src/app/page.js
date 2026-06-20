@@ -4,6 +4,7 @@ import NavBar from "@/components/Navbar/Navbar";
 import Process from "@/components/process/process";
 import AnimationArea from "@/components/animationFolder/animation";
 import FleetSection from "@/components/fleetOfCars/Fleet";
+import ServicePage from "@/components/ServiceSection/service";
 export default function Home() {
   return (
    <>
@@ -12,6 +13,7 @@ export default function Home() {
   <Process/>
   <AnimationArea/>
   <FleetSection/>
+  <ServicePage/>
    </>
   );
 }

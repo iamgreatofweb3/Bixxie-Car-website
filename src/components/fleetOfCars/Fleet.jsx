@@ -1,7 +1,7 @@
 import "./fleet.css"
 import Link from "next/link"
 import Image from "next/image"
-import { Headphones,Locate,MonitorDotIcon,MapPin } from "lucide-react"
+import { Headphones,Locate,MonitorDotIcon,MapPin,LucideCircleArrowOutUpRight } from "lucide-react"
 import { FaWhatsapp,FaBluetooth, FaDoorOpen, FaSitemap, FaSatellite, FaWifi } from "react-icons/fa"
 
 export default function FleetSection() {
@@ -147,32 +147,11 @@ export default function FleetSection() {
                                 <Link href="booking" className="Link">BOOK NOW</Link>
                             </button>
                         </div>
-                    </div>
-                
-                   
-
-
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+                    </div> 
             </div>
-
-
-
-
-
-
+            <button className="bookBtn">
+                <Link href="booking" className="bookBtnLink"> BOOK NOW</Link>
+            </button>
         </div>
         
         

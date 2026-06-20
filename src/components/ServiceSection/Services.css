@@ -1,0 +1,40 @@
+.serviceContainer {
+    background-color: #d6efff;
+    padding: 2em;
+    text-align: center;
+    font-family: Great1;
+}
+.serviceGridContainer {
+    margin-top: 2em;
+}
+.serviceBox {
+    border-radius: 0.7em;
+    padding: 1em;
+    box-shadow: 1px 2px 2px 2px rgba(255, 255, 255,1);
+    background-color: white;
+    margin-top: 1em;
+    h5 {
+        font-weight: 400;
+        font-size: 1.1em;
+    }
+}
+@media(min-width:769px) {
+    .serviceGridContainer {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 2em;
+    }
+    .serviceBox{
+        margin: 1em;
+    }
+}
+@media(min-width:1024px) {
+    .serviceGridContainer {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 2em;
+    }
+    .serviceBox{
+        margin: 1em;
+    }
+}

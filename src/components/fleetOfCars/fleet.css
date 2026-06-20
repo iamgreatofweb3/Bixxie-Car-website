@@ -49,6 +49,26 @@
         text-decoration: none;
     }
 }
+.bookBtn {
+    background-color: crimson;
+    padding: 1em;
+    border-radius: 0.7em;
+    border: transparent;
+    margin: 2em 0;
+    cursor: pointer;
+}
+.bookBtnLink{
+    color: white;
+    text-decoration: none;
+    
+}
+.bookBtn:hover {
+    transition:all 0.3s ease;
+    background-color: black;
+        transform: translateY(-5px);
+
+
+}
 
 @media(min-width:769px) {
     .fleetGrid {
