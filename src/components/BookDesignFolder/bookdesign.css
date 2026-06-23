@@ -28,10 +28,10 @@
         margin-top: 1em;
     }
 }
-.slideImg{
-    height: 20em;
-    width: 30em;
-}
+/* .slideImg{
+    height: 200px;
+    width: 300px;
+} */
 @media(min-width:769px) {
     .bookcnt{
         border-radius: 2em;
