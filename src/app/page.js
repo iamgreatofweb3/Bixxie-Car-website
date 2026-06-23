@@ -6,7 +6,7 @@ import AnimationArea from "@/components/animationFolder/animation";
 import FleetSection from "@/components/fleetOfCars/Fleet";
 import ServicePage from "@/components/ServiceSection/service";
 import AchievementPage from "@/components/achievementFolder/achievement";
-import ReviewCnt from "@/components/reviewFolder/review";
+import ReviewCnt from "@/components/BookDesignFolder/bookdesign";
 export default function Home() {
   return (
    <>
