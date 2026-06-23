@@ -1,5 +1,8 @@
 import "./bookdesign.css"
+import Link from "next/link"
 import Image from "next/image"
+import { FaAdjust, FaForward } from "react-icons/fa"
+import { FaDiagramNext, FaFaceGrimace } from "react-icons/fa6"
 export default function BookDesignCnt() {
     return(
         <>
@@ -9,6 +12,9 @@ export default function BookDesignCnt() {
                     <h2>Start your Journey Now</h2>
                     <h5>Book your Perfect ride and  
                     enjoy with Bixxie Ridez rental services</h5>
+                     <button>
+                                <Link href="booking" className="Links">BOOK NOW <FaAdjust/></Link>
+                            </button>
                 </div>
                 <div className="right-part">
                     <Image src="/car-bg-removed.png" width={430} height={300} alt="SlideImg" className="slideImg"/>
