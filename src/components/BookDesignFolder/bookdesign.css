@@ -8,25 +8,29 @@
 .bookcnt {
     background-color: crimson;
     margin-bottom: 1em;
-    padding: 1em ;
+    /* padding: 1em ; */
     border-radius: 0.3em;
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* width: 100%; */
-    /* max-width: 700px; */
-    height: 260px;
+    justify-content: center;
+    max-height: 27em;
+    height: 100%;
     margin: 0 auto;
-    overflow: hidden;
     h2 {
         font-size: 2em;
         color: white;
+        margin-top: 0.3em;
     }
     h5 {
         font-weight: 500;
         font-size: 1.2em;
-        margin-top: 0.4em;
+        margin-top: 1em;
     }
+}
+.slideImg{
+    height: 20em;
+    width: 30em;
 }
 @media(min-width:769px) {
     .bookcnt{
