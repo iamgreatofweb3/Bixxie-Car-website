@@ -1,20 +1,21 @@
 .bookDesignCnt {
-    padding: 0 2em;
+    padding:  1em;
     text-align: center;
     font-family: Great1;
+    margin-bottom: 2em;
     
 
 }
 .bookcnt {
     background-color: crimson;
-    margin-bottom: 1em;
+    /* margin-bottom: 2em; */
     /* padding: 1em ; */
     border-radius: 0.3em;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    max-height: 27em;
+    max-height: 25em;
     height: 100%;
     margin: 0 auto;
     h2 {
@@ -34,12 +35,15 @@ button{
         border-radius: 0.4em;
         cursor: pointer;
         margin-top: 2em;
+      
     }
     .Links {
         color: white;
         text-decoration: none;
+        display: flex;
+        align-items: center;
     }
-
+  
 @media(min-width:769px) {
     .bookcnt{
         border-radius: 2em;
