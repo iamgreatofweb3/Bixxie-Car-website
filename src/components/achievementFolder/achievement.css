@@ -25,4 +25,7 @@
     .achievementsBorder{
         border-right: 1px solid grey;
     }
+    .achievementCnt{
+        padding: 2.5em;
+    }
 }
