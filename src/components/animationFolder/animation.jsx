@@ -2,7 +2,8 @@ import "./animation.css"
 import Image from "next/image"
 import AnimateCar from "../animatedImg/animate"
 import { PhoneCall,Tags,Clock,MedalIcon,CarFront,Award,Star } from "lucide-react"
-import { FaCar,FaClock } from "react-icons/fa"
+import { FaCar,FaTags,FaMedal } from "react-icons/fa"
+import { FaClockRotateLeft,FaPhone,FaAward } from "react-icons/fa6"
 export default function AnimationArea() {
     return (
         <>
@@ -20,13 +21,14 @@ export default function AnimationArea() {
                 </p>
                  <div className="grid-box">
                         <div className="first-grid">
-                            <li> <Award stroke="crimson" strokeWidth={1} width={40} height={40} className="iconAnimate"/> Professional and well trained chauffeurs</li>
-                            <li><Tags  stroke="crimson" strokeWidth={1} width={40} height={40} className="iconAnimate"/> Customer Centered and excellent service</li>
-                            <li> <Clock stroke="crimson" strokeWidth={1} width={40} height={40} className="iconAnimate"/>  Punctuality</li>
+                            {/* <li> <Award stroke="crimson" strokeWidth={1} width={40} height={40} className="iconAnimate"/> Professional and well trained chauffeurs</li> */}
+                            <li> <Award color="crimson"   className="iconAnimate " style={{width:"40px",height:"40px"}}/> Professional and well trained chauffeurs</li>
+                             <li><FaTags color="crimson"  width={80} height={140} className="iconAnimate " style={{width:"40px",height:"40px"}}/> Excellent Services</li>
+                            <li><FaClockRotateLeft color="crimson"className="iconAnimate " style={{width:"40px",height:"40px"}}/>Pucntuality</li>
                         </div>
                         <div className="second-grid">
-                            <li> <MedalIcon  stroke="crimson" strokeWidth={1} width={40} height={40} className="iconAnimate"/> Dedication and Certanity</li>
-                            <li> <PhoneCall  stroke="crimson" strokeWidth={1} width={40} height={40} className="iconAnimate"/> Excellent customer support</li>
+                            <li> <FaMedal   className="iconAnimate" color="crimson"  style={{width:"40px",height:"40px"}}/> Dedication and Certanity</li>
+                            <li> <FaPhone  color="crimson" className="iconAnimate " style={{width:"40px",height:"40px"}}/> Excellent customer support</li>
                             <li><FaCar  color="crimson"  width={80} height={140} className="iconAnimate " style={{width:"40px",height:"40px"}}/>Well Maintained Vehicles</li>
                         </div>
                     </div>
