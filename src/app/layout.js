@@ -7,6 +7,7 @@ export const metadata = {
   openGraph:{
     title:"Welcome to Bixxie-Car-World",
     description:"Affordable and reliable Car renting services",
+     metadataBase: new URL("https://bixxie-car-website.vercel.app/"),
     images:[
       {
         url :"/car1.png",

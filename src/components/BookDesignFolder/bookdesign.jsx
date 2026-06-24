@@ -17,7 +17,7 @@ export default function BookDesignCnt() {
                             </button>
                 </div>
                 <div className="right-part">
-                    <Image src="/car-bg-removed.png" width={430} height={300} alt="SlideImg" className="slideImg"/>
+                    <Image src="/car-bg-removed.png" width={300} height={200} alt="SlideImg" className="slideImg"/>
                 </div>
             </div>
 
