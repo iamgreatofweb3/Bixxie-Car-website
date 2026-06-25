@@ -1,28 +1,35 @@
 footer {
     padding: 1em;
-    text-align: left;
     font-family: Great1;
         background-color: #d6efff;
         h4 {
             font-weight: 500;
-            text-align: left;
             margin-bottom: 1em;
+            font-size: 1.1em;
         }
-
 }
 footer li {
 list-style: none;
-padding: 0.8em;
-
+padding: 0.8em 0;
 }
 .footer-links {
     text-decoration: none;
     color: black;
 }
 .linksContainer {
-   display: flex;
-   flex-wrap: wrap;
-   align-items: flex-start;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
    gap: 2em;
-
 }
+@media(min-width:760px) {
+
+    footer{
+        display: flex;
+    }
+    .linksContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+

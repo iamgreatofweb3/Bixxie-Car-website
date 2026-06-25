@@ -1,6 +1,7 @@
 import "./footer.css"
 import Link from "next/link"
 export default function Footer() {
+    const fullYear = new Date().getFullYear()
     return (
         <>
         <footer>
@@ -39,12 +40,8 @@ export default function Footer() {
                     <li> <Link href="#" className="footer-links">Directories</Link></li>
                     <li> <Link href="#" className="footer-links">Our Images/Gallery</Link></li>
                 </ul>
-
-
-
-
-
             </div>
+            <h3>{fullYear}</h3>
         </footer>
         
         
