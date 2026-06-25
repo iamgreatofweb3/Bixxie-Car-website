@@ -1,0 +1,29 @@
+footer {
+    padding: 1em;
+    text-align: center;
+    font-family: Great1;
+        background-color: #d6efff;
+        h4 {
+            font-weight: 500;
+            text-align: left;
+            margin-bottom: 1em;
+        }
+
+}
+footer li {
+list-style: none;
+padding: 0.8em;
+
+}
+.footer-links {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+.linksContainer {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   gap: 5em;
+
+}

@@ -7,6 +7,7 @@ import FleetSection from "@/components/fleetOfCars/Fleet";
 import ServicePage from "@/components/ServiceSection/service";
 import AchievementPage from "@/components/achievementFolder/achievement";
 import ReviewCnt from "@/components/BookDesignFolder/bookdesign";
+import Footer from "@/components/footer/footer";
 export default function Home() {
   return (
    <>
@@ -18,6 +19,7 @@ export default function Home() {
   <ServicePage/>
   <AchievementPage/>
   <ReviewCnt/>
+  <Footer/>
    </>
   );
 }
