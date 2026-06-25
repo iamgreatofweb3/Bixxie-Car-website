@@ -1,6 +1,6 @@
 footer {
     padding: 1em;
-    text-align: center;
+    text-align: left;
     font-family: Great1;
         background-color: #d6efff;
         h4 {
@@ -18,12 +18,11 @@ padding: 0.8em;
 .footer-links {
     text-decoration: none;
     color: black;
-    text-align: left;
 }
 .linksContainer {
    display: flex;
    flex-wrap: wrap;
    align-items: flex-start;
-   gap: 5em;
+   gap: 2em;
 
 }
