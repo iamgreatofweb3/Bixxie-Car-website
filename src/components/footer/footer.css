@@ -2,34 +2,51 @@ footer {
     padding: 1em;
     font-family: Great1;
         background-color: #d6efff;
-        h4 {
+       
+}
+.leftFooter {
+     h3 {
             font-weight: 500;
             margin-bottom: 1em;
             font-size: 1.1em;
         }
 }
-footer li {
-list-style: none;
-padding: 0.8em 0;
+.right-footer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    div {
+        display: grid;
+        margin: 1em;
+    }
 }
-.footer-links {
+.links {
     text-decoration: none;
     color: black;
+    padding: 0.3em 0;
 }
-.linksContainer {
-   display: grid;
-   grid-template-columns: repeat(2,1fr);
-   gap: 2em;
-}
-@media(min-width:760px) {
-
-    footer{
+@media(min-width:769px) {
+    .footerCnt {
         display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
     }
-    .linksContainer {
-        display: flex;
-        flex-direction: column;
+    
+    .right-footer {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-right: 30px;
+    }
+    .links {
+        padding: 0.6em 0;
+    }
+    .date {
+        text-align: center;
+        border-top: 1px solid grey;
+        margin-top: 2em;
+        padding: 1.5em 0;
+        width: 100%;
+        h3 {
+            font-weight: 500;
+        }
     }
 }
-
-

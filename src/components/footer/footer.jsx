@@ -4,45 +4,55 @@ export default function Footer() {
     const fullYear = new Date().getFullYear()
     return (
         <>
-        <footer>
-            <h4>
-                At Bixxie Ridez Rentals, we are the best because of our
-                verified vehicles and flexible plan option tailored for our customer needs.
-            </h4>
-            <div className="linksContainer">
-                <ul>
-                    <h3>Insights</h3>
-                    <li> <Link href="#" className="footer-links">Support Center</Link></li>
-                    <li> <Link href="#" className="footer-links">Customer Support</Link></li>
-                    <li> <Link href="#" className="footer-links">About Us Page</Link></li>
-                    <li> <Link href="#" className="footer-links">Copyright</Link></li>
-                </ul>
+         <footer>
+            <div className="footerCnt">
 
-                <ul>
-                    <h3>Services</h3>
-                    <li> <Link href="#" className="footer-links">Our Fleet</Link></li>
-                    <li> <Link href="#" className="footer-links">Privacy Policy</Link></li>
-                    <li> <Link href="#" className="footer-links">Our Chaffeurs</Link></li>
-                    <li> <Link href="#" className="footer-links">Browser Extensions</Link></li>
-                </ul>
-
-                <ul>
-                    <h3>Career</h3>
-                    <li> <Link href="#" className="footer-links">Site Map</Link></li>
-                    <li> <Link href="#" className="footer-links">Terms & Conditions</Link></li>
-                    <li> <Link href="#" className="footer-links">Return Policy</Link></li>
-                </ul>
-
-                <ul>
-                    <h3>About Us</h3>
-                    <li> <Link href="#" className="footer-links">Press Inquriries</Link></li>
-                    <li> <Link href="#" className="footer-links">Social Media</Link></li>
-                    <li> <Link href="#" className="footer-links">Directories</Link></li>
-                    <li> <Link href="#" className="footer-links">Our Images/Gallery</Link></li>
-                </ul>
+            <div className="leftFooter">
+                <h3>At Bixxie Ridez, We stand out with personalized
+                    services that are so flexible for our customers.
+                </h3>
             </div>
-            <h3>{fullYear}</h3>
-        </footer>
+            <div className="right-footer">
+                <div>
+                    <h3>Insights</h3>
+                    <Link href="/" className="links">Support Link</Link>
+                    <Link href="/" className="links">Customer Support</Link>
+                    <Link href="/" className="links">About Page</Link>
+                </div>
+
+                <div>
+                    <h3>Services</h3>
+                    <Link href="/" className="links">Our data</Link>
+                    <Link href="/" className="links">Our Chaffeurs</Link>
+                    <Link href="/" className="links">Privacy Policy</Link>
+                    <Link href="/" className="links">Our Data</Link>
+                </div>
+
+                <div>
+                    <h3>Career</h3>
+                    <Link href="/" className="links">Return Policy</Link>
+                    <Link href="/" className="links">Terms & Conditions</Link>
+                    <Link href="/"className="links">Site Map</Link>
+                    <Link href="/" className="links">Privacy Policy</Link>
+
+                </div>
+
+                <div>
+                    <h3>About Us</h3>
+                    <Link href="/" className="links">Press Inquiries</Link>
+                    <Link href="/" className="links">Social Media</Link>
+                    <Link href="/" className="links">Images & Rolls</Link>
+                    <Link href="/" className="links">Our Documentary</Link>
+                </div>
+            </div>
+            </div>
+            <div className="date">
+                 <h3> ©{fullYear} Bixxie Ridez.All Rights Reserved.</h3>
+            </div>
+
+        </footer> 
+
+
         
         
         </>
